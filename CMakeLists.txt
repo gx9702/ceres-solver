@@ -119,7 +119,7 @@ if (NOT MSVC)
   # (C++11 etc) features available are on by default and there is no analogue to
   # -std=c++11.  It will however be available for MinGW & CygWin, which can
   # support -std=c++11.
-  option(CXX11 "Enable use of C++11 headers if available (requires client code use C++11)." OFF)
+  option(CXX11 "Enable use of C++11 headers if available (requires client code use C++11)." ON)
 endif(NOT MSVC)
 option(EXPORT_BUILD_DIR
   "Export build directory using CMake (enables external use without install)." OFF)
